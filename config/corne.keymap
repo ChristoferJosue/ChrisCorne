@@ -28,7 +28,7 @@
         ctrl_shift_t: ctrl_shift_t {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LCTRL) &kp T>;
+            bindings = <&kp LS(LC(T))>;
             label = "CTRL_SHIFT_T";
         };
     };
